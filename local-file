@@ -1,0 +1,32 @@
+<section class="collections">
+    <div class="container">
+      <div class="d-flex">
+        <div class="col-1-3 height">
+          <div class="collection">
+            <img src="./assets/img/a.png" alt="">
+            <div class="collection-content">
+              <h3 class="collection-title">Mens Fashion</h3>
+              <p class="collection-text">View Collection</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-3">
+          <div class="gallery">
+            <div class="gallery-image-container" style="background-image: url(assets/img/c.png);">
+            </div>
+            <div class="gallery-image-container" style="background-image: url(assets/img/c.png);">
+            </div>
+          </div>
+        </div>
+        <div class="col-1-3 no-margin height">
+          <div class="collection">
+            <img src="./assets/img/c.png" alt="">
+            <div class="collection-content">
+              <h3 class="collection-title">Mens Fashion</h3>
+              <p class="collection-text">View Collection</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
