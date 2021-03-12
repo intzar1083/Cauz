@@ -157,24 +157,24 @@
       <div class="d-flex">
         <div class="col-1-3">
           <div class="collection portrate-collection" style="background-image: url(assets/img/a.png);">
-            <div class="collection-content">
+            <div class="collection-content move-to-top">
               <h3 class="collection-title">Mens Fashion</h3>
-              <p class="collection-text d-flex items-center">
-                View Collection
-                <img src="assets/img/flat-icon/right-arrow (1).svg" alt="" />
-              </p>
+              <a href="#" class="collection-btn">
+                View Collection <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+              </a>
             </div>
           </div>
         </div>
         <div class="col-1-3">
-          <div class="collection mb-30" style="background-image: url(assets/img/c.png);">
+          <div class="collection mb-30 overlay" style="background-image: url(assets/img/b.png);">
             <div class="collection-content">
               <h3 class="collection-title">Non Profits</h3>
               <p class="collection-text">Starts From $99.9</p>
             </div>
             <a href="#" class="view-collection">View Collection</a>
           </div>
-          <div class="collection" style="background-image: url(assets/img/c.png);">
+          <div class="collection overlay"
+            style="background-image: url(assets/img/pexels-anastasia-shuraeva-4208122.png);">
             <div class="collection-content">
               <h3 class="collection-title">Trending</h3>
               <p class="collection-text">Starts From $99.9</p>
@@ -184,12 +184,11 @@
         </div>
         <div class="col-1-3 no-margin">
           <div class="collection portrate-collection" style="background-image: url(assets/img/c.png);">
-            <div class="collection-content">
+            <div class="collection-content move-to-bottom">
               <h3 class="collection-title">Women Fashion</h3>
-              <p class="collection-text d-flex items-center">
-                View Collection
-                <img src="assets/img/flat-icon/right-arrow (1).svg" alt="" />
-              </p>
+              <a href="#" class="collection-btn">
+                View Collection <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+              </a>
             </div>
           </div>
         </div>
@@ -207,71 +206,91 @@
               free!</p>
           </div>
         </div>
-        <div class="col-1-3 no-margin">
-          <div class="form">
+        <div class="col-1-3 no-margin form">
+          <form>
             <h4 class="form-title">Create an Account</h4>
             <p class="form-description">Be Part Of Our Next Community Meet.</p>
             <input type="text" class="form-input" name="User name" placeholder="Username">
             <input type="password" class="form-input" name="Password" placeholder="Password">
-            <input type="checkbox" class="form-checkbox"><label class="form-checkbox-title">Remember Me</label>
+            <div class="remember">
+              <input type="checkbox" class="form-checkbox"><label class="form-checkbox-title">Remember Me</label>
+            </div>
             <button class="btn sign-up-btn secoundry-bgcolor">
               Sign Up <img src="./assets/img/flat-icon/block-user.svg">
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
-  <section class="fations ptb-100">
+  <section class="fashions mb-100">
     <div class="container">
       <div id="demo" class="tabs-main-wrapper text-center">
-
         <ul class="tabs">
           <li class="active"><a href="#panel-1">Women</a></li>
           <li><a href="#panel-2">Mens</a></li>
         </ul>
-
         <div class="tabs-container">
           <div class="t-c clearfix" style="width: 400%;">
             <section class="tabs-contents active" id="panel-1">
+              <div class="fashion-content">
+                <h3 class="fashion-title">Women’s Fashion</h3>
+                <p class="fashion-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                  At vero
+                </p>
+              </div>
               <!-- Swiper -->
               <div class="swiper-container">
-                <div class="fashion-content">
-                  <h3 class="fashion-title">Women’s Fashion</h3>
-                  <p class="fashion-text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero
-                  </p>
-                </div>
+
                 <div class="swiper-wrapper">
                   <div class="swiper-slide fashion-slide"
                     style="background-image: url(assets/img/pexels-anastasiya-gepp-1462637.png);">
-                    <div class="fashion-slide-content">
-                      <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
-                      <p class="fashion-slide-price">$29.99<img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
-                      </p>
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
                     </div>
                   </div>
                   <div class="swiper-slide fashion-slide"
                     style="background-image: url(assets/img/pexels-jonaorle-3828245.png);">
-                    <div class="fashion-slide-content">
-                      <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
-                      <p class="fashion-slide-price">$29.99</p>
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
                     </div>
                   </div>
                   <div class="swiper-slide fashion-slide"
                     style="background-image: url(assets/img/pexels-godisable-jacob-949671.png);">
-                    <div class="fashion-slide-content">
-                      <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
-                      <p class="fashion-slide-price">$29.99</p>
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
                     </div>
                   </div>
                   <div class="swiper-slide fashion-slide"
                     style="background-image: url(assets/img/pexels-murat-esibatir-4355671.png);">
-                    <div class="fashion-slide-content">
-                      <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
-                      <p class="fashion-slide-price">$29.99</p>
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -281,32 +300,64 @@
               </div>
             </section>
             <section class="tabs-contents" id="panel-2">
+              <div class="fashion-content">
+                <h3 class="fashion-title">Women’s Fashion</h3>
+                <p class="fashion-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                  At vero
+                </p>
+              </div>
               <!-- Swiper -->
               <div class="swiper-container">
-                <div class="fashion-content">
-                  <h3 class="fashion-title">Women’s Fashion</h3>
-                  <p class="fashion-text">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                    At vero
-                  </p>
-                </div>
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide fashion-slide">
-                    <img src="./assets/img/pexels-anastasiya-gepp-1462637.png" alt="">
-                    <div class="fashion-slide-content">
-                      <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
-                      <p class="fashion-slide-price">$29.99</p>
+                  <div class="swiper-slide fashion-slide"
+                    style="background-image: url(assets/img/pexels-anastasiya-gepp-1462637.png);">
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
                     </div>
                   </div>
-                  <div class="swiper-slide fashion-slide">
-                    <img src="./assets/img/pexels-jonaorle-3828245.png" alt="">
+                  <div class="swiper-slide fashion-slide"
+                    style="background-image: url(assets/img/pexels-anastasiya-gepp-1462637.png);">
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
+                    </div>
                   </div>
-                  <div class="swiper-slide fashion-slide">
-                    <img src="./assets/img/pexels-anastasiya-gepp-1462637.png" alt="">
+                  <div class="swiper-slide fashion-slide"
+                    style="background-image: url(assets/img/pexels-anastasiya-gepp-1462637.png);">
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
+                    </div>
                   </div>
-                  <div class="swiper-slide fashion-slide">
-                    <img src="./assets/img/pexels-anastasiya-gepp-1462637.png" alt="">
+                  <div class="swiper-slide fashion-slide"
+                    style="background-image: url(assets/img/pexels-anastasiya-gepp-1462637.png);">
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <!-- Add Arrows -->
@@ -316,7 +367,104 @@
             </section>
           </div>
         </div>
-
+      </div>
+    </div>
+  </section>
+  <section class="events" style="background-image: url(assets/img/h1_hero2.png);">
+    <div class="container">
+      <div class="event-content">
+        <h4 class="event-description">Non Profits Events</h4>
+        <h3 class="event-title">Events</br>
+          Near</br>
+          You</h3>
+        <a href="#" class="event-learn-more-btn">
+          Learn More <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="posts mb-50">
+    <div class="container">
+      <div class="d-flex">
+        <div class="col-1-3">
+          <div class="post">
+            <img src="assets/img/about.png" alt="Post Img" class="post-img">
+            <div class="post-content">
+              <p class="post-description">Non Profit</p>
+              <p class="post-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Etiam at ornare dui. Mauris eleifend, felis non fermentum ornare.
+              </p>
+              <a href="#" class="post-read-more-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-3">
+          <div class="post">
+            <img src="assets/img/pexels-international-fund-for-animal-welfare-5487071.png" alt="Post Img"
+              class="post-img">
+            <div class="post-content">
+              <p class="post-description">Non Profit</p>
+              <p class="post-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Etiam at ornare dui. Mauris eleifend, felis non fermentum ornare.
+              </p>
+              <a href="#" class="post-read-more-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-3 no-margin">
+          <div class="post">
+            <img src="assets/img/pexels-jopwell-2422294.png" alt="Post Img" class="post-img">
+            <div class="post-content">
+              <p class="post-description">Non Profit</p>
+              <p class="post-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+              <p class="post-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Etiam at ornare dui. Mauris eleifend, felis non fermentum ornare.
+              </p>
+              <a href="#" class="post-read-more-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="facilities text-center">
+    <div class="container">
+      <div class="d-flex">
+        <div class="col-1-5">
+          <div class="facility-content">
+            <img src="assets/img/flat-icon/free-delivery.svg" class="facility-img">
+            <p class="facility-title">Free Delivery</p>
+          </div>
+        </div>
+        <div class="col-1-5">
+          <div class="facility-content">
+            <img src="assets/img/flat-icon/free-delivery.svg" class="facility-img">
+            <p class="facility-title">Free Delivery</p>
+          </div>
+        </div>
+        <div class="col-1-5">
+          <div class="facility-content">
+            <img src="assets/img/flat-icon/free-delivery.svg" class="facility-img">
+            <p class="facility-title">Free Delivery</p>
+          </div>
+        </div>
+        <div class="col-1-5">
+          <div class="facility-content">
+            <img src="assets/img/flat-icon/free-delivery.svg" class="facility-img">
+            <p class="facility-title">Free Delivery</p>
+          </div>
+        </div>
+        <div class="col-1-5 no-margin">
+          <div class="facility-content">
+            <img src="assets/img/flat-icon/free-delivery.svg" class="facility-img">
+            <p class="facility-title">Free Delivery</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
