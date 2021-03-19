@@ -1,0 +1,96 @@
+.single-blog-page1 .hero {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+  background-size: cover;
+  background-color: #F6F8FA;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.single-blog-page1 .hero-content{
+  padding-top: 150px;
+}
+.single-blog-page1 .author-name{
+  color: #fff;
+  font-size: 16px;
+  font-family: MontserratMedium;
+}
+.single-blog-page1 .blog-post-date{
+  color: #fff;
+  font-size: 14px;
+  font-family: MontserratRegular;
+}
+.single-blog-page1 .hero-title{
+  font-size: 52px;
+  line-height: 62px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: BalooBhaina2Bold;
+}
+.single-blog{
+  margin-bottom: 50px;
+}
+.single-blog-page1 .widget{
+  padding-right: 50px;
+}
+.single-blog-page1 .widget-title{
+  color: #1c1c1c;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: MontserratRegular;
+}
+.single-blog-page1 .widget-title::after{
+  border-bottom: none;
+}
+.single-blog-page1 .widget-social-menu-link{
+  margin-top: -15px;
+}
+.single-blog-page1 .widget-social-menu-item:nth-child(1) .widget-social-menu-link{
+  margin-top: 0;
+}
+.single-blog-post-content h4{
+  font-size: 24px;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: BalooBhaina2Bold;
+}
+.single-blog-post-content p{
+  font-size: 18px;
+  color: #7C7C7C;
+  font-family: MontserratRegular;
+}
+.single-blog-post-content ul{
+  margin-bottom: 20px;
+}
+.single-blog-post-content ul li{
+  position: relative;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #7C7C7C;
+  font-family: MontserratRegular;
+}
+.single-blog-post-content ul li::before{
+content: "";
+left: 0;
+height: 15px;
+width: 15px;
+position: absolute;
+background-image: url(../img/checkmark.svg);
+background-size: contain;
+}
+.single-blog-post-content img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+.single-blog-post-content hr{
+  width: 70%;
+}

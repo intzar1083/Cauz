@@ -1,0 +1,67 @@
+.not-404-found{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #EEF3F8;
+  text-align: center;
+}
+.not-404-found-num{
+  color: #E7A75B;
+  font-size: 142px;
+  line-height: 172px;
+  font-family: MontserratExtraBold;
+}
+.not-404-found-title{
+  color: #1c1c1c;
+  font-size: 72px;
+  line-height: 92px;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  font-family: MontserratRegular;
+}
+.not-found-404-page form{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.not-found-404-page .search-input {
+  width: 30%;
+  padding: 15px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #F6F8FA;
+}
+.not-found-404-page .search-input::placeholder{
+  color: #7C7C7C;
+  font-size: 14px;
+  font-family: MontserratRegular; 
+}
+.not-found-404-page .search-input:focus,
+.not-found-404-page .search-btn:focus{
+  outline: none;
+}
+.not-found-404-page .search-btn{
+  position: absolute;
+  top: 0;
+  right: 430px;
+  padding: 10px 10px;
+  display: flex;
+  background-color: #491E3C;
+  border-radius: 100px;
+}
+.not-found-404-page .search-btn img{
+  width: 20px;
+  object-fit: contain;
+}
+.back-to-homepage{
+  color: #1c1c1c;
+  font-size: 16px;
+  margin-top: 50px;
+  text-transform: none;
+  font-family: MontserratRegular; 
+}
+.back-to-homepage a{
+  color: #E7A75B;
+  font-size: 16px;
+  text-decoration: underline;
+  font-family: MontserratMedium; 
+}

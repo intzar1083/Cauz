@@ -1,0 +1,78 @@
+.single-blog-post{
+  /* padding-bottom: 50px; */
+}
+.single-blog-post-main-content{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.single-blog-post .single-blog-post-main-img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.single-blog-post-main-title {
+  font-size: 52px;
+  line-height: 62px;
+  color: #1c1c1c;
+  font-family: MontserratBold;
+}
+.single-blog-post-present-menu{
+  padding-top: 20px;
+}
+.single-blog-post-present-menu-item{
+  margin-right: 5px;
+  display: flex;
+}
+.single-blog-post-present-menu-item:last-child{
+  margin-right: 0;
+}
+.single-blog-post-present-menu-item img{
+  width: 10px;
+  object-fit: contain;
+}
+.single-blog-post-present-menu-link{
+  color: #7C7C7C;
+  display: flex;
+  font-size: 12px;
+  font-family: MontserratRegular;
+}
+.single-blog-post-present-menu-link.active{
+  color: #1c1c1c;
+  font-size: 12px;
+  font-family: MontserratSemiMedium;
+}
+.single-blog-page2 .author-name{
+  color: #1c1c1c;
+  font-size: 16px;
+  font-family: MontserratMedium;
+}
+.single-blog-page2 .blog-post-date{
+  color: #1c1c1c;
+  font-size: 14px;
+  font-family: MontserratRegular;
+}
+.single-blog{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.single-blog-page2 .widget{
+  /* padding-right: 50px; */
+}
+.single-blog-page2 .widget-title{
+  color: #1c1c1c;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: MontserratRegular;
+}
+.single-blog-page2 .widget-title::after{
+  border-bottom: none;
+}
+.single-blog-page2 .widget-social-menu-link{
+  margin-top: -15px;
+}
+.single-blog-page2 .widget-social-menu-item:nth-child(1) .widget-social-menu-link{
+  margin-top: 0;
+}

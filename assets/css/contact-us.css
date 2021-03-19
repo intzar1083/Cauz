@@ -1,0 +1,181 @@
+/* Hero */
+.contact-page .hero {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+  display: inline-block;
+  background-size: cover;
+  background-color: #F6F8FA;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.contact-page .hero::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.contact-page .hero-content{
+  padding-top: 150px;
+}
+.contact-page .hero-title{
+  font-size: 82px;
+  line-height: 90px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  z-index: 9999;
+  font-family: BalooBhaina2Bold;
+}
+.contact-page .hero-title::after{
+  border-bottom: 0;
+}
+.contact-page .hero-text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  z-index: 9999;
+  position: relative;
+  font-family: MontserratRegular;
+}
+.hero-img img{
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+.present-menu{
+  position: absolute;
+  bottom: -30px;
+}
+.present-menu-item{
+  margin-right: 5px;
+  display: flex;
+}
+.present-menu-item:last-child{
+  margin-right: 0;
+}
+.present-menu-item img{
+  width: 10px;
+  object-fit: contain;
+}
+.present-menu-link{
+  color: #7C7C7C;
+  display: flex;
+  font-size: 12px;
+  font-family: MontserratRegular;
+}
+.present-menu-link.active{
+  color: #1c1c1c;
+  font-size: 12px;
+  font-family: MontserratSemiMedium;
+}
+.residense-location-description{
+  font-size: 32px;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+  font-family: BalooBhaina2SemiBold;
+}
+.residense-location-title{
+  color: #1c1c1c;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: MontserratSemiMedium;
+}
+.residense-location-phone-num,
+.residense-location-info,
+.residense-location-office,
+.residense-location-office-time{
+  color: #1c1c1c;
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: MontserratRegular;
+}
+.residense-location-content ul{
+  padding-top: 10px;
+}
+.input-description{
+  font-size: 12px;
+  color: #491E3C;
+  font-family: MontserratItalic;
+}
+.residense-location-content input{
+  padding: 15px;
+}
+.residense-location-content input,
+.residense-location-content textarea{
+  width: 100%;
+  background-color: #F6F8FA;
+  border: 0;
+  margin-bottom: 15px;
+}
+.residense-location-content textarea{
+  padding: 15px;
+  height: 250px;
+}
+.residense-location-content input::placeholder,
+.residense-location-content textarea::placeholder{
+  color: #7C7C7C;
+  font-size: 14px;
+  font-family: MontserratRegular;
+}
+.residense-location-content input:focus,
+.residense-location-content textarea:focus{
+  outline: none;
+}
+.send-btn{
+  text-align: right;
+}
+.send-btn a{
+  padding: 10px 20px;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 5px;  
+  font-family: MontserratRegular;
+}
+.contact-location-img{
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+.wellcome-charity-description{
+  color: #491E3C;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: BalooBhaina2Regular;
+}
+.wellcome-charity-title{
+  color: #1c1c1c;
+  font-size: 24px;
+  font-family: MontserratBold;
+}
+.wellcome-charity-text{
+  font-style: 16px;
+  color: #7C7C7C;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: MontserratRegular; 
+}
+.donate-btn{
+  color: #fff;
+  background-color: #491E3C;
+}
+.wellcome-charity{
+  margin-bottom: 50px;
+}
+.wellcome-charity-img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

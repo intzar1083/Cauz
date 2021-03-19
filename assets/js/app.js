@@ -11,10 +11,9 @@ $('#demo').tabsA({
   defaultTab: 0
 
 });
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.fashion-swiper-container', {
   slidesPerView: 4,
   spaceBetween: 30,
-  loop: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -22,5 +21,19 @@ var swiper = new Swiper('.swiper-container', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  },
+});
+
+var swiper = new Swiper('.popular-swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  effect: 'fade',
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.popular-slide-next',
+    prevEl: '.popular-slide-prev',
   },
 });

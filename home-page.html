@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/tabs.css">
   <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/Globle-styling-classes.css">
   <link rel="stylesheet" type="text/css" href="assets/css/home-page.css">
   <title>Home</title>
 </head>
@@ -23,7 +24,7 @@
             <nav class="header-navigation">
               <ul class="header-menu no-margin no-padding d-flex">
                 <li class="header-menu-item">
-                  <a href="#" class="header-menu-link">Home</a>
+                  <a href="home-page.html" class="header-menu-link">Home</a>
                 </li>
                 <li class="header-menu-item has-header-submenu">
                   <a href="#" class="header-menu-link">About Us</a>
@@ -42,7 +43,7 @@
                   <a href="#" class="header-menu-link">Products</a>
                 </li>
                 <li class="header-menu-item">
-                  <a href="#" class="header-menu-link">Blog</a>
+                  <a href="blog.html" class="header-menu-link">Blog</a>
                 </li>
                 <li class="header-menu-item">
                   <a href="#" class="header-menu-link">Community</a>
@@ -60,13 +61,13 @@
         <div class="search-register-wrapper">
           <div class="d-flex items-center flex-end">
             <div class="search-icon">
-              <img src="./assets/img/flat-icon/search.svg" alt="Search Icon">
+              <img src="assets/img/flat-icon/1search.svg" alt="Search Icon">
             </div>
             <a href="#" class="login d-flex">
               <p>Login</p>
             </a>
             <button class="btn register-btn secoundry-bgcolor">
-              Register <img src="./assets/img/flat-icon/block-user.svg">
+              Register <img src="assets/img/flat-icon/block-user.svg">
             </button>
           </div>
         </div>
@@ -153,45 +154,84 @@
     </div>
   </section>
   <section class="collections">
+    <!-- <div class="container"> -->
+    <div class="d-flex">
+      <div class="col-1-3">
+        <div class="collection portrate-collection" style="background-image: url(assets/img/a.png);">
+          <div class="collection-content move-to-top">
+            <h3 class="collection-title">Mens Fashion</h3>
+            <a href="#" class="collection-btn">
+              View Collection <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-1-3">
+        <div class="collection mb-30 overlay" style="background-image: url(assets/img/b.png);">
+          <div class="collection-content">
+            <h3 class="collection-title">Non Profits</h3>
+            <p class="collection-text">Starts From $99.9</p>
+          </div>
+          <a href="#" class="view-collection">View Collection</a>
+        </div>
+        <div class="collection overlay"
+          style="background-image: url(assets/img/pexels-anastasia-shuraeva-4208122.png);">
+          <div class="collection-content">
+            <h3 class="collection-title">Trending</h3>
+            <p class="collection-text">Starts From $99.9</p>
+          </div>
+          <a href="#" class="view-collection">View Collection</a>
+        </div>
+      </div>
+      <div class="col-1-3 no-margin">
+        <div class="collection portrate-collection" style="background-image: url(assets/img/c.png);">
+          <div class="collection-content move-to-bottom">
+            <h3 class="collection-title">Women Fashion</h3>
+            <a href="#" class="collection-btn">
+              View Collection <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+  <section class="popular-member">
     <div class="container">
-      <div class="d-flex">
-        <div class="col-1-3">
-          <div class="collection portrate-collection" style="background-image: url(assets/img/a.png);">
-            <div class="collection-content move-to-top">
-              <h3 class="collection-title">Mens Fashion</h3>
-              <a href="#" class="collection-btn">
-                View Collection <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
-              </a>
+      <div class="popular-member-content">
+        <h4 class="popular-member-title">Our Popular Members</h4>
+        <p class="popular-member-text">
+          Join us today and share the same experience with
+          the most happiest users worldwide
+        </p>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper-container popular-swiper-container">
+        <div class="swiper-wrapper popular-swiper-wrapper">
+          <div class="swiper-slide popular-slide">
+            <img src="assets/img/pexels-senuscape-1658967.png" alt="">
+            <div class="popular-slide-content">
+              <img src="assets/img/Ellipse 8.png" class="popular-slide-author-img">
+              <a href="#" class="popular-slide-author-name">Jane Doe</a>
+              <a href="#" class="popular-slide-author-profile-link">View Profile</a>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next popular-slide-next"></div>
+              <div class="swiper-button-prev popular-slide-prev"></div>
+            </div>
+          </div>
+          <div class="swiper-slide popular-slide">
+            <img src="assets/img/about.png" alt="">
+            <div class="popular-slide-content">
+              <img src="assets/img/Ellipse 19.png" class="popular-slide-author-img">
+              <a href="#" class="popular-slide-author-name">BadoaTech</a>
+              <a href="#" class="popular-slide-author-profile-link">View Profile</a>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next popular-slide-next"></div>
+              <div class="swiper-button-prev popular-slide-prev"></div>
             </div>
           </div>
         </div>
-        <div class="col-1-3">
-          <div class="collection mb-30 overlay" style="background-image: url(assets/img/b.png);">
-            <div class="collection-content">
-              <h3 class="collection-title">Non Profits</h3>
-              <p class="collection-text">Starts From $99.9</p>
-            </div>
-            <a href="#" class="view-collection">View Collection</a>
-          </div>
-          <div class="collection overlay"
-            style="background-image: url(assets/img/pexels-anastasia-shuraeva-4208122.png);">
-            <div class="collection-content">
-              <h3 class="collection-title">Trending</h3>
-              <p class="collection-text">Starts From $99.9</p>
-            </div>
-            <a href="#" class="view-collection">View Collection</a>
-          </div>
-        </div>
-        <div class="col-1-3 no-margin">
-          <div class="collection portrate-collection" style="background-image: url(assets/img/c.png);">
-            <div class="collection-content move-to-bottom">
-              <h3 class="collection-title">Women Fashion</h3>
-              <a href="#" class="collection-btn">
-                View Collection <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
@@ -242,8 +282,7 @@
                 </p>
               </div>
               <!-- Swiper -->
-              <div class="swiper-container">
-
+              <div class="swiper-container fashion-swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide fashion-slide"
                     style="background-image: url(assets/img/pexels-anastasiya-gepp-1462637.png);">
@@ -283,6 +322,17 @@
                   </div>
                   <div class="swiper-slide fashion-slide"
                     style="background-image: url(assets/img/pexels-murat-esibatir-4355671.png);">
+                    <div class="d-flex">
+                      <div class="fashion-slide-content">
+                        <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
+                        <p class="fashion-slide-price">$29.99</p>
+                      </div>
+                      <div class="fashion-item-icon">
+                        <img src="assets/img/flat-icon/shopping-bag (1).svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide fashion-slide" style="background-image: url(assets/img/about.png);">
                     <div class="d-flex">
                       <div class="fashion-slide-content">
                         <a href="#" class="fashion-slide-title">Blue lined women shirt</a>
@@ -468,6 +518,73 @@
       </div>
     </div>
   </section>
+  <!-- footer section  -->
+  <footer class="site-footer">
+    <div class="top-site-footer">
+      <div class="container">
+        <div class="top-site-footer-content-container d-flex items-center jc-c">
+          <img src="assets/img/flat-icon/Path 153.svg" alt="loading">
+          <img src="assets/img/flat-icon/twitter.svg" alt="loading">
+          <img src="assets/img/flat-icon/youtube.svg" alt="loading">
+          <img src="assets/img/flat-icon/instagram.svg" alt="loading">
+          <img src="assets/img/flat-icon/pinterest.svg" alt="loading">
+        </div>
+      </div>
+    </div>
+    <div class="bottom-site-footer">
+      <div class="container">
+        <div class="bottom-site-footer-content ">
+          <div class="d-flex">
+            <div class="col-1-4">
+              <h2 class="bottom-site-footer-heading">contact us</h2>
+              <p class="bottom-site-footer-content-text">Call Us 24/7</p>
+              <a href="#" class="call">+112 345 6789</a>
+              <p class="bottom-site-footer-content-text">Address goes here - address actually appears on two lines</p>
+              <a href="#" class="mail-to">mailtonfo@example.com</a>
+            </div>
+            <div class="col-1-4">
+              <div class="bottom-site-footer-content-wraper">
+                <h2 class="bottom-site-footer-heading">shop now</h2>
+                <a href="#">shop</a>
+                <a href="#">Women’s Fashion</a>
+                <a href="#">Mens Fashion</a>
+                <a href="#">News Arrivals</a>
+                <a href="#">products on sale</a>
+              </div>
+            </div>
+            <div class="col-1-4">
+              <div class="bottom-site-footer-content-wraper">
+                <h2 class="bottom-site-footer-heading">online Community</h2>
+                <a href="#">Register</a>
+                <a href="#">login</a>
+                <a href="#">My porfile</a>
+                <a href="#">Popular Groups</a>
+                <a href="#">Popular Mentions</a>
+              </div>
+            </div>
+            <div class="col-1-4">
+              <div class="bottom-site-footer-content-wraper">
+                <h2 class="bottom-site-footer-heading">business</h2>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Checkout</a>
+                <a href="#">Gift Card</a>
+              </div>
+            </div>
+          </div>
+          <div class="block-content d-flex items-center jc-c">
+            <div class="col-1-2 block">
+              <p>Copyright 2021 | Cauz | All rights reserved</p>
+            </div>
+            <div class="col-1-2 block text-center">
+              <img src="assets/img/Group 366.png" alt="loading">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous"></script>

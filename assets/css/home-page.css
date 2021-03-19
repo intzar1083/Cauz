@@ -26,6 +26,11 @@
   font-weight: 400;
 }
 @font-face {
+  font-family: MontserratItalic;
+  src: url(../fonts/Montserrat-Italic.ttf);
+  font-weight: 400;
+}
+@font-face {
   font-family: MontserratMedium;
   src: url(../fonts/Montserrat-Medium.ttf);
   font-weight: 500;
@@ -39,6 +44,11 @@
   font-family: MontserratBold;
   src: url(../fonts/Montserrat-Bold.ttf);
   font-weight: 700;
+}
+@font-face {
+  font-family: MontserratExtraBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: 800;
 }
 @font-face {
   font-family: MontserratBlack;
@@ -89,8 +99,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* Responsive Max-width 1280px */
-@media only screen and {
+/* Responsive Max-width  */
+@media only screen and (max-width: 1280px) {
   .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -123,6 +133,9 @@ body {
 }
 .text-right {
   text-align: right;
+}
+.block{
+  display: block;
 }
 a {
   text-decoration: none;
@@ -357,6 +370,11 @@ p{
   color: #000;
   object-fit: contain;
 }
+.register-btn img{
+  width: 12px !important;
+  object-fit: contain;
+}
+
 /* Hero */
 .hero {
   width: 100%;
@@ -395,6 +413,11 @@ p{
   margin-top: 20px;
   margin-bottom: 40px;
   font-family: MontserratRegular;
+}
+.join-btn img,
+.shop-btn img{
+  width: 12px;
+  object-fit: contain;
 }
 .hero-img img{
   width: 100%;
@@ -489,11 +512,11 @@ p{
   font-size: 16px;
   padding: 5px 15px 5px 15px;
   background-color: #1c1c1c;
+  text-transform: uppercase;
   font-family: MontserratRegular;
   display: inline-flex;
 }
 .collection-btn img{
-  color: #fff;
   width: 15px;
   margin-left: 5px;
   object-fit: contain;
@@ -511,8 +534,99 @@ p{
   left: 20px;
   transform: translate(0,0);
   position: absolute;
-
 }
+.popular-member{
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.popular-member-content{
+  text-align: center;
+}
+.popular-member-title{
+  color: #1c1c1c;
+  font-size: 36px;
+  font-family: BalooBhaina2SemiBold;
+}
+.popular-member-text{
+  color: #7C7C7C;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: MontserratRegular;
+}
+.popular-swiper-wrapper{
+  padding-bottom: 0 !important;
+}
+.popular-slide{
+  padding-left: 100px;
+}
+.popular-slide img{
+  width: 70%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.popular-slide-content{
+  width: 30%;
+  height: 200px;
+  margin-left: -50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #fff;
+  border-radius: 5px;
+  position: relative;
+  text-align: center !important;
+}
+.popular-slide-author-img{
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: contain;
+  position: relative;
+  top: -25px;
+}
+.popular-slide-author-name{
+  display: block;
+  color: #491E3C;
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-family: MontserratMedium;
+}
+.popular-slide-author-profile-link{
+  display: block;
+  font-size: 14px;
+  color: #1c1c1c;
+  text-decoration: underline;
+  font-family: MontserratRegular;
+}
+.popular-slide-next {
+  width: 25px !important;
+  height: 45px !important;
+  color: #1c1c1c;
+  padding: 8px 12px 10px;
+  background-color: #1c1c1c !important;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+}
+.popular-slide-prev {
+  width: 25px !important;
+  height: 45px !important;
+  color: #1c1c1c;
+  padding: 8px 10px 12px;
+  background-color: #1c1c1c !important;
+  border-radius: 5px;
+  position: absolute;
+  left: auto !important;
+  right: 25px;
+}
+.popular-slide-prev::after {
+  color: #fff;
+  font-size: 20px !important;
+}
+.popular-slide-next::after {
+  color: #fff;
+  font-size: 20px !important;
+}
+
 .account-form{
   width: 100%;
   height: 600px;
@@ -611,6 +725,10 @@ p{
   text-transform: uppercase;
   float: right;
   margin-top: 30px;
+}
+.sign-up-btn img{
+  width: 12px;
+  object-fit: contain;
 }
 
 /* Fashion */
@@ -789,7 +907,7 @@ ul.tabs{
   color: #fff;
   font-size: 36px;
   line-height: 46px;
-  font-family: BalooBhaina2Bold; 
+  font-family: BalooBhaina2Bold;
 }
 .event-title{
   color: #fff;
@@ -850,10 +968,135 @@ ul.tabs{
   font-family: MontserratRegular;
 }
 /* facilities */
+.facilities{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.facility-img{
+  width: 70px;
+  object-fit: contain;
+}
 .facility-title{
   color: #1c1c1c;
   font-size: 18px;
   line-height: 32px;
   margin-top: 5px;
   font-family: MontserratMedium; 
+}
+
+.top-site-footer{
+  background-image: url(../img/pexels-andrea-piacquadio-845434.png);
+  height: 268px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top-site-footer::after{
+  background-color: rgba(28, 28, 28, .5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: 22;
+}
+.top-site-footer-content-container{
+  position: relative;
+  z-index: 222;
+}
+.top-site-footer-content-container img{
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 9px 18px;
+  margin-left: -10px;
+  object-fit: contain;
+  box-shadow: 1px 2px 6px rgb(0 0 0 / 70%);
+}
+.top-site-footer-content-container img:first-child{
+  padding-top: 18px;
+}
+.bottom-site-footer{
+  padding: 50px 0px 30px 0px;
+  background-color: #F6F8FA;
+}
+.bottom-site-footer-content{
+  padding: 0px 20px;
+}
+.bottom-site-footer-heading{
+  font-family: baloobhaina2-semibold;
+  font-size: 20px;
+  line-height: 41px;
+  color: #1C1C1C;
+  margin-bottom: 16px;
+}
+.bottom-site-footer-content-text{
+font-size: 16px;
+line-height: 23px;
+color: #1C1C1C;
+text-transform: inherit;
+}
+.call{
+font-size: 28px;
+line-height: 32px;
+color: #1C1C1C;
+font-family: baloobhaina2-bold;
+margin: 22px 0px 4px 0px;
+display: block;
+transition: .3s ease-in-out;
+}
+.call:hover{
+  color: #491E3C;
+  text-decoration: underline;
+}
+.mail-to{
+  font-size: 16px;
+  line-height: 19px;
+  color: #1C1C1C;
+  display: block;
+  margin-top: 12px;
+  text-transform: lowercase;
+  transition: .3s ease-in-out;
+}
+.mail-to:hover{
+  color: #491E3C;
+  text-decoration: underline;
+}
+.bottom-site-footer-content-wraper a{
+  display: block;
+  margin-bottom: 16px;
+  color: #1C1C1C;
+  font-size: 16px;
+  line-height: 19px;
+  transition: .3s ease-in-out;
+}
+.bottom-site-footer-content-wraper a:hover{
+  font-family: montserrat-semibold;
+  color: #491E3C;
+}
+.block-content{
+  padding-top: 60px;
+}
+.block{
+background-color: #fff;
+padding: 8px 0px;
+height: 52px;
+}
+.block p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7C7C7C;
+  padding-top: 10px;
+}
+.block img{
+  width: 52%;
+  text-align: center;
 }

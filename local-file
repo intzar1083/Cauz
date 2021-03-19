@@ -1,31 +1,134 @@
-<section class="collections">
+<section class="single-blog">
     <div class="container">
       <div class="d-flex">
-        <div class="col-1-3 height">
-          <div class="collection">
-            <img src="./assets/img/a.png" alt="">
-            <div class="collection-content">
-              <h3 class="collection-title">Mens Fashion</h3>
-              <p class="collection-text">View Collection</p>
-            </div>
-          </div>
-        </div>
         <div class="col-1-3">
-          <div class="gallery">
-            <div class="gallery-image-container" style="background-image: url(assets/img/c.png);">
+          <div class="author-wrapper text-center">
+            <div class="author-img">
+              <img src="assets/img/Ellipse 19.png" alt="Author Img">
             </div>
-            <div class="gallery-image-container" style="background-image: url(assets/img/c.png);">
-            </div>
+          </div>
+          <div class="author-name-wrapper text-center">
+            <p class="author-name">Noah</p>
+            <p class="blog-post-date">01 . March . 2021</p>
+          </div>
+          <div class="widget text-center">
+            <h4 class="widget-title">Share</h4>
+            <ul class="widget-social-menu ul-type-none no-margin no-padding">
+              <li class="widget-social-menu-item">
+                <a href="#" class="widget-social-menu-link d-block">
+                  <img src="assets/img/flat-icon/Path 153.svg" alt="">
+                </a>
+              </li>
+              <li class="widget-social-menu-item">
+                <a href="#" class="widget-social-menu-link d-block">
+                  <img src="assets/img/flat-icon/twitter.svg" alt="">
+                </a>
+              </li>
+              <li class="widget-social-menu-item">
+                <a href="#" class="widget-social-menu-link d-block">
+                  <img src="assets/img/flat-icon/youtube.svg" alt="">
+                </a>
+              </li>
+              <li class="widget-social-menu-item">
+                <a href="#" class="widget-social-menu-link d-block">
+                  <img src="assets/img/flat-icon/instagram.svg" alt="">
+                </a>
+              </li>
+              <li class="widget-social-menu-item">
+                <a href="#" class="widget-social-menu-link d-block">
+                  <img src="assets/img/flat-icon/pinterest.svg" alt="">
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-1-3 no-margin height">
-          <div class="collection">
-            <img src="./assets/img/c.png" alt="">
-            <div class="collection-content">
-              <h3 class="collection-title">Mens Fashion</h3>
-              <p class="collection-text">View Collection</p>
+        <div class="col-2-3 no-margin">
+          <section class="single-blog-post">
+            <div class="container">
+              <div class="single-blog-post-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                <ul>
+                  <li>Sed diam nonumy eirmod tempor invidunt ut.</li>
+                  <li>Labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+                  <li>At vero eos et accusam et justo duo dolores et ea rebum.</li>
+                  <li>Stet clita kasd gubergren, no sea takimata.</li>
+                  <li>Sanctus est Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet, consetetur sadipscing elit.</li>
+                </ul>
+                <img src="assets/img/pexels-international-fund-for-animal-welfare-5487071.png"
+                  alt="Single Blog Post img">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                  Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <hr>
+                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                <ul>
+                  <li>Sed diam nonumy eirmod tempor invidunt ut.</li>
+                  <li>Labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+                  <li>At vero eos et accusam et justo duo dolores et ea rebum.</li>
+                  <li>Stet clita kasd gubergren, no sea takimata.</li>
+                  <li>Sanctus est Lorem ipsum dolor sit amet.</li>
+                  <li>Lorem ipsum dolor sit amet, consetetur sadipscing elit.</li>
+                </ul>
+                <p>
+                  Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                  no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                  no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                  sed diam voluptua.
+                  At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                  no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                  consetetur sadipscing elitr.
+                </p>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
@@ -34,6 +137,35 @@
 
 
 
+  <main>
+    <section class="single-blog-post">
+      <div class="container">
+        <div class="single-blog-post-main-content text-center">
+          <h1 class="single-blog-post-main-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</h1>
+          <ul class="single-blog-post-present-menu d-flex jc-c ul-type-none no-margin no-padding">
+            <li class="single-blog-post-present-menu-item">
+              <a href="home-page.html" class="single-blog-post-present-menu-link">Home</a>
+            </li>
+            <li class="single-blog-post-present-menu-item">
+              <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+            </li>
+            <li class="single-blog-post-present-menu-item">
+              <a href="#" class="single-blog-post-present-menu-link active">Blog</a>
+            </li>
+            <li class="single-blog-post-present-menu-item">
+              <img src="assets/img/flat-icon/right-arrow (1).svg" alt="">
+            </li>
+            <li class="single-blog-post-present-menu-item">
+              <a href="#" class="single-blog-post-present-menu-link">Lorem ipsum dolor sit amet, consetetur sadipscing
+                elitr, sed
+                diam</a>
+            </li>
+          </ul>
+          <img src="assets/img/pexels-jopwell-2422294.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
@@ -48,77 +180,74 @@
 
 
 
-  .swiper-container .swiper-button-next::after{
-  font-size: 25px;
-}
-.fashion-slide{
+
+  .single-blog-post-main-content{
   width: 100%;
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  /* position: relative; */
-  transition: border 0.3s ease-in-out;
 }
-.swiper-container .swiper-button-prev{
-  position: absolute ;
-  left: 0;
-  width: auto;
-  height: auto;
+.single-blog-post-main-content img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.single-blog-post-main-title {
+  font-size: 52px;
+  line-height: 62px;
   color: #1c1c1c;
-  padding: 8px 10px 12px;
-  background-color: #F6F8FA;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  font-family: MontserratBold;
 }
-.swiper-container .swiper-button-prev::after{
-  font-size: 25px;
+.single-blog-post-present-menu-item{
+  margin-right: 5px;
+  display: flex;
 }
-.swiper-container .swiper-button-next{
-  position: absolute ;
-  right: 0;
-  width: auto;
-  height: auto;
-  color: #1c1c1c;
-  padding: 8px 12px 10px;
-  background-color: #F6F8FA;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.single-blog-post-present-menu-item:last-child{
+  margin-right: 0;
 }
-.fashion-slide-content{
-  position: absolute;
-  top: 100%;
-  left: 0;
+.single-blog-post-present-menu-item img{
+  width: 10px;
+  object-fit: contain;
 }
-.fashion-slide-title{
-  font-size: 18px;
-  color: #1c1c1c;
-  margin: 0;
-  font-family: BalooBhaina2Regular;
-}
-.fashion-slide-price{
-  font-size: 14px;
-  color: #1c1c1c;
-  text-align: left; 
+.single-blog-post-present-menu-link{
+  color: #7C7C7C;
+  display: flex;
+  font-size: 12px;
   font-family: MontserratRegular;
 }
-.fashion-slide img{
-  width: 20px;
-  background-color: #DDDDDD;
-  object-fit: contain;
-  position: absolute;
-  top: 100%;
-  right: 0;
+.single-blog-post-present-menu-link.active{
+  color: #1c1c1c;
+  font-size: 12px;
+  font-family: MontserratSemiMedium;
 }
-
-.fashion-slide:hover .fashion-slide-title{
-  color: #431c53;
-  border-bottom: 1px solid #431c53;
+.single-blog-page2 .author-name{
+  color: #1c1c1c;
+  font-size: 16px;
+  font-family: MontserratMedium;
 }
-
-.fashion-slide:hover img{
-  color: #DDDDDD;
-  background-color: #431c53;
-  filter: invert(15%) sepia(47%) saturate(1244%) hue-rotate(246deg) brightness(93%) contrast(101%);
-  /* filter: invert(100%) sepia(0%) saturate(3647%) hue-rotate(105deg) brightness(90%) contrast(92%); */
+.single-blog-page2 .blog-post-date{
+  color: #1c1c1c;
+  font-size: 14px;
+  font-family: MontserratRegular;
+}
+.single-blog{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.single-blog-page2 .widget{
+  /* padding-right: 50px; */
+}
+.single-blog-page2 .widget-title{
+  color: #1c1c1c;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: MontserratRegular;
+}
+.single-blog-page2 .widget-title::after{
+  border-bottom: none;
+}
+.single-blog-page2 .widget-social-menu-link{
+  margin-top: -15px;
+}
+.single-blog-page2 .widget-social-menu-item:nth-child(1) .widget-social-menu-link{
+  margin-top: 0;
 }

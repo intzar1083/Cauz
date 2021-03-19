@@ -126,6 +126,7 @@ ul,li{
 }
 img{
   width: 100%;
+  /* max-width: 100%; */
   object-fit: cover;
 }
 .d-flex{
@@ -206,7 +207,7 @@ margin-right: 0;
 .col-60{
   width: 60%;
 }
-.btn{
+/* .btn{
   padding: 8px 20px;
   border: 0;
   box-shadow: none;
@@ -214,10 +215,7 @@ margin-right: 0;
   text-transform: capitalize;
   transition: .3s ease-in-out;
   font-family: MontserratRegular;
-}
-
-
-
+} */
 .monstrate{
   font-family: MontserratBlack;
   font-family: MontserratBold;
